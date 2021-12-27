@@ -290,7 +290,7 @@ ul li{
   right: 15px;
 }
 
-@media (max-width: 1366px) {
+/* @media (max-width: 1366px) {
   .nav-menu .drop-down .drop-down ul {
     left: -90%;
   }
@@ -300,7 +300,7 @@ ul li{
   .nav-menu .drop-down .drop-down > a:after {
     content: "\ea9d";
   }
-}
+} */
 
 /* Appointment Button */
 .appointment-btn {
@@ -716,9 +716,9 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Featured Services
+# Featured products
 --------------------------------------------------------------*/
-.featured-services .icon-box {
+.featured-products .icon-box {
   padding: 30px;
   position: relative;
   overflow: hidden;
@@ -729,7 +729,7 @@ section {
   z-index: 1;
 }
 
-.featured-services .icon-box::before {
+.featured-products .icon-box::before {
   content: '';
   position: absolute;
   background: #d9f1f2;
@@ -741,44 +741,44 @@ section {
   z-index: -1;
 }
 
-.featured-services .icon-box:hover::before {
+.featured-products .icon-box:hover::before {
   background: #d49115;
   top: 0;
   border-radius: 0px;
 }
 
-.featured-services .icon {
+.featured-products .icon {
   margin-bottom: 15px;
 }
 
-.featured-services .icon i {
+.featured-products .icon i {
   font-size: 48px;
   line-height: 1;
   color: #d49115;
   transition: all 0.3s ease-in-out;
 }
 
-.featured-services .title {
+.featured-products .title {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
 
-.featured-services .title a {
+.featured-products .title a {
   color: #111;
 }
 
-.featured-services .description {
+.featured-products .description {
   font-size: 15px;
   line-height: 28px;
   margin-bottom: 0;
 }
 
-.featured-services .icon-box:hover .title a, .featured-services .icon-box:hover .description {
+.featured-products .icon-box:hover .title a, .featured-products .icon-box:hover .description {
   color: #fff;
 }
 
-.featured-services .icon-box:hover .icon i {
+.featured-products .icon-box:hover .icon i {
   color: #fff;
 }
 
@@ -924,19 +924,19 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Services
+# products
 --------------------------------------------------------------*/
-.services .icon-box {
+.products .icon-box {
   margin-bottom: 20px;
   text-align: center;
 }
 
-.services .icon {
+.products .icon {
   display: flex;
   justify-content: center;
 }
 
-.services .icon i {
+.products .icon i {
   width: 80px;
   height: 80px;
   margin-bottom: 20px;
@@ -950,11 +950,11 @@ section {
   box-shadow: 0px 0 25px rgba(0, 0, 0, 0.15);
 }
 
-.services .icon-box:hover .icon i {
+.products .icon-box:hover .icon i {
   box-shadow: 0px 0 25px rgba(63, 187, 192, 0.3);
 }
 
-.services .title {
+.products .title {
   font-weight: 600;
   margin-bottom: 15px;
   font-size: 18px;
@@ -962,16 +962,16 @@ section {
   padding-bottom: 15px;
 }
 
-.services .title a {
+.products .title a {
   color: #444444;
   transition: 0.3s;
 }
 
-.services .title a:hover {
+.products .title a:hover {
   color: #d49115;
 }
 
-.services .title::after {
+.products .title::after {
   content: '';
   position: absolute;
   display: block;
@@ -981,15 +981,15 @@ section {
   bottom: 0;
   left: calc(50% - 25px);
 }
-.services img{
+.products img{
   width: 100%;
   transition: all 0.4s ease-in;
   cursor: pointer;
 }
-.services img:hover{
+.products img:hover{
   transform: translateY(-10px)
 }
-.services .description {
+.products .description {
   line-height: 24px;
   font-size: 14px;
 }
