@@ -301,7 +301,14 @@ ul li{
     content: "\ea9d";
   }
 } */
-
+.view-more{
+  background: #d49115;
+    border: 0;
+    padding: 10px 30px;
+    color: #fff !important;
+    transition: 0.4s;
+    border-radius: 4px
+}
 /* Appointment Button */
 .appointment-btn {
   margin-left: 25px;
